@@ -1,0 +1,22 @@
+.projets{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+
+.projets div{
+   background-color: rgb(171, 171, 214);
+   padding: 1.5em;
+}
+
+.projets div:hover{
+   background-color: rgb(60, 60, 104);
+   padding: 1.5em;
+   margin: 1.5em;
+}
+
+.title-projects{
+    text-align: center;
+}
+
