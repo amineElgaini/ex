@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+      }
+      nav {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        color: white;
+      }
+      nav span {
+        font-size: 30px;
+      }
+      nav ul {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+      }
+      nav ul li {
+        list-style: none;
+      }
+      nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(156, 156, 156);
+      }
+
+      .contact h2,
+      .contact p {
+        text-align: center;
+      }
+      .contact h2 {
+        font-size: 30px;
+      }
+
+      .contact p {
+        font-size: 20px;
+      }
+      .contact form {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+    <nav>
+      <span>James Anderson</span>
+      <ul>
+        <li><a href="#hero">hero</a></li>
+        <li><a href="#projects">project</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>This a form so you can contact us</p>
+      <form action="">
+        <div>
+          <label for="">Name</label>
+          <input type="text" />
+        </div>
+
+        <div>
+          <label for="">Email</label>
+          <input type="text" />
+        </div>
+
+        <div>
+          <label for="">Message</label>
+          <input type="text" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
