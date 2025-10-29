@@ -1,0 +1,14 @@
+
+
+.portfolio {
+    display: grid;
+    /* height: 200px; */
+    grid-template-columns: repeat(4, 23%);
+    justify-content: space-evenly;
+}
+
+.portfolio section img {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+}
